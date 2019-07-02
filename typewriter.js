@@ -6,5 +6,5 @@ for (const char of sentenceModifier) {
   setTimeout(()=>{
     process.stdout.write(char);
   },x);
-  x += 50;
+  x += 500;
 }
